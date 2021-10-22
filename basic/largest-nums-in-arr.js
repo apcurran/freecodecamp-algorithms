@@ -1,7 +1,7 @@
 "use strict";
 
 /**
- * @param {number[]} arr 
+ * @param {array} arr 
  * @returns {number[]}
  */
 function largestOfFour(arr) {

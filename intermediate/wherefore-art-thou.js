@@ -1,3 +1,10 @@
+"use strict";
+
+/**
+ * @param {array} collection 
+ * @param {object} source 
+ * @returns {array}
+ */
 function whatIsInAName(collection, source) {
     const sourceKeys = Object.keys(source);
 

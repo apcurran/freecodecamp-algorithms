@@ -1,5 +1,11 @@
 "use strict";
 
+/**
+ * @param {string} str 
+ * @param {string} before 
+ * @param {string} after 
+ * @returns {string}
+ */
 function myReplace(str, before, after) {
     const isBeforeUppercased = before[0] === before[0].toUpperCase() ? true : false;
 

@@ -1,5 +1,9 @@
 "use strict";
 
+/**
+ * @param {...array} arr 
+ * @returns {array}
+ */
 function uniteUnique(...arr) {
     const flattenedArr = arr.flat();
     
