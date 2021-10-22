@@ -1,5 +1,9 @@
 "use strict";
 
+/**
+ * @param  {...array} vectors
+ * @returns {null | number}
+ */
 function dotProduct(...vectors) {
     // There may only be two vectors passed as arguments to the func
     if (vectors.length !== 2) {

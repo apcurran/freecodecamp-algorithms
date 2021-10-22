@@ -1,7 +1,6 @@
 "use strict";
 
 /**
- * 
  * @returns {string[]}
  */
 function getDateFormats() {

@@ -1,7 +1,6 @@
 "use strict";
 
 /**
- * 
  * @param {number} n 
  * @returns {number}
  */

@@ -1,3 +1,6 @@
+/**
+ * @returns {array}
+ */
 function fizzBuzz() {
     let resultArr = [];
 
