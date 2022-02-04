@@ -1,0 +1,22 @@
+{
+  "name": "freecodecamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apcurran/freecodecamp-algorithms.git"
+  },
+  "author": "Alex Curran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apcurran/freecodecamp-algorithms/issues"
+  },
+  "homepage": "https://github.com/apcurran/freecodecamp-algorithms#readme",
+  "devDependencies": {
+    "eslint": "^8.8.0"
+  }
+}
