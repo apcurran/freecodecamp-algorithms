@@ -12,5 +12,5 @@ function titleCase(str) {
         .join(" ");
 }
 
-console.log(titleCase("I'm a little tea pot")) // I'm A Little Tea Pot
-console.log(titleCase("sHoRt AnD sToUt")) // Short And Stout
+console.log(titleCase("I'm a little tea pot")); // I'm A Little Tea Pot
+console.log(titleCase("sHoRt AnD sToUt")); // Short And Stout

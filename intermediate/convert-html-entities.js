@@ -1,5 +1,7 @@
 "use strict";
 
+/* eslint no-use-before-define: 0 */  // --> OFF
+
 /**
  * @param {string} str 
  * @returns {string}

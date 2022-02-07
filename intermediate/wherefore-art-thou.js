@@ -8,7 +8,7 @@
 function whatIsInAName(collection, source) {
     const sourceKeys = Object.keys(source);
 
-    return collection.filter(obj => {
+    return collection.filter((obj) => {
         for (let key of sourceKeys) {
             if (!obj.hasOwnProperty(key) || obj[key] !== source[key]) {
                 return false;

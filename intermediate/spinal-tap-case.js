@@ -11,5 +11,5 @@ function spinalCase(str) {
         .toLowerCase();
 }
 
-console.log( spinalCase('This Is Spinal Tap') ); // this-is-spinal-tap
+console.log( spinalCase("This Is Spinal Tap") ); // this-is-spinal-tap
 console.log( spinalCase("thisIsSpinalTap") ); // this-is-spinal-tap
