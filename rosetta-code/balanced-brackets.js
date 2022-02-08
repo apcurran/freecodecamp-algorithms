@@ -20,9 +20,10 @@ function isBalanced(str) {
             stack.push(bracket);
         } else {
             const poppedBracket = stack.pop();
-
             // Check to see if the popped bracket is the matching bracket
-            if (bracketMap.get(poppedBracket) !== bracket) {
+            const possibleMatchingCloseBracket = bracketMap.get(poppedBracket);
+
+            if (possibleMatchingCloseBracket !== bracket) {
                 return false;
             }
         }
