@@ -39,6 +39,7 @@ function arithmeticMean(arr) {
 
 /**
  * time: O(n)
+ * 
  * @param {number[]} arr 
  * @returns {number}
  */
@@ -50,6 +51,7 @@ function geometricMean(arr) {
 
 /**
  * time: O(n)
+ * 
  * @param {number[]} arr 
  * @returns {number}
  */
