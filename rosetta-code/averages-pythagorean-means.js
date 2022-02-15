@@ -3,7 +3,7 @@
 /**
  * Solution 1
  * time: O(n)
- * space: O(n)
+ * space: O(1)
  * 
  * @param {number[]} rangeArr 
  * @returns {object}
