@@ -12,19 +12,37 @@
 //             .join("");
 // }
 
+// /**
+//  * Solution 2
+//  * @param {string} str 
+//  * @returns {string}
+//  */
+// function reverseString(str) {
+//     let reversedStr = "";
+
+//     for (let i = str.length - 1; i >= 0; i--) {
+//         reversedStr += str[i];
+//     }
+
+//     return reversedStr;
+// }
+
 /**
- * Solution 2
+ * Solution 3
+ * time: O(n)
+ * space: O(n)
+ * 
  * @param {string} str 
  * @returns {string}
  */
 function reverseString(str) {
-    let reversedStr = "";
+    let reversedChars = [];
 
     for (let i = str.length - 1; i >= 0; i--) {
-        reversedStr += str[i];
+        reversedChars.push(str[i]);
     }
 
-    return reversedStr;
+    return reversedChars.join("");
 }
 
 console.log( reverseString("hello") );
